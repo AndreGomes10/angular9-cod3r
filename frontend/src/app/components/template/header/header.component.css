@@ -1,0 +1,24 @@
+.header{
+    display: flex;  /*ele tem um eixo e nesse caso o eixo é a linha*/
+    align-items: center;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;  /*ele não vai ter nada*/
+    color: #000;  /*pra quando clicar no link ele não ficar roxo, pode colocar qualquer cor*/
+}
+
+.header .logo {
+    max-height: 32px;
+}
+
+.header .title-group{
+    padding: 25px;
+}
+
+.header .title-group i{
+    padding-right: 5px;
+}
+

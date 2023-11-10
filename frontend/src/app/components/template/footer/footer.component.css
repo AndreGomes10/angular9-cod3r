@@ -1,0 +1,12 @@
+.footer{
+    position: fixed;  /*pra ser fixado*/
+    bottom: 0;  /*pra ser referencia a parte de baixo da pagina, ele vai colocar o footer na parte de baixo da pagina*/
+    
+    display: flex;
+    justify-content: flex-end;  /*alinhar no eixo principal pra ficar no final da linha*/
+}
+
+.footer > span{  /* > = significa pra aplicar só nesse span e não nos outros*/
+    font-size: 1.1rem;
+    font-weight: 300;
+}

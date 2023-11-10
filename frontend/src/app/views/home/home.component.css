@@ -1,0 +1,13 @@
+.home .title{
+    font-size: 3rem; /*rem= é um tipo de unidade relativa, ela sempre faz uma relação com o raiz a fonte da pagina, 
+                     se tiver um tamanho padrão da pagina, exemplo: se a fonte padão é 14px então 1rem é 14 px,
+                     então se 2rem é igual a 28px.
+                     em= ele é sempre relativo ao pai, ele é sempre relativo ao anterior,
+                     se você definiu uma fonte no anterior, então ele vai se basear no anterior*/
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.home .subtitle{
+    font-size: 1.1rem;
+}
